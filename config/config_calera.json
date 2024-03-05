@@ -1,0 +1,17 @@
+{
+    "sCodSociedad": "1001",
+    "archivoRuta": "C:/Users/Usuario/Downloads/neo_QA_documentService.csv",
+    "delimitador": ";",
+    "tipoMigracion":"key",
+    "urlGetArchivo":"https://documentservicesapn901312d1.br1.hana.ondemand.com/documentserviceSAP/DocumentService?accion=show_file_inline&id_documento=id_key&repositorio=Proveedores",
+    "campoKey": "Imagenes",
+    "campoExtension" : "TiposIMG",
+    "campoNombre": "NombresIMG",
+    "campokeyXML":"ArchivoXML",
+    "campoNombreXML":"NombresXML",
+    "campoExtensionXML" : "TiposXML",
+    "serviceURLDM": "http://localhost:3010/DMS",
+    "sObtenerCorrelativoSap": "https://portalprov-pe1001-ms-apiintegracion-dev.cfapps.br10.hana.ondemand.com/SAP/ID=16",
+    "sRegistroBase": "https://portalprov-pe1001-ms-registro-base-qas.cfapps.br10.hana.ondemand.com",
+    "query_update_reg_pre": ""
+}
